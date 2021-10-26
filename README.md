@@ -31,7 +31,7 @@ Install the `npm install` modules in your terminal before using
 <br> <br>
 Run the robot `node index.js` then using
 <br> <br>
-**🔴 Do not forget to enter the account token in `config.json` 🔴**
+**🔴 Do not forget to enter the bot token in `config.json` 🔴**
 <br> <br>
 
 ![DM me Discord](https://discord.c99.nl/widget/theme-1/488958506280550402.png)
