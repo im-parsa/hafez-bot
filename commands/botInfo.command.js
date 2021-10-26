@@ -35,7 +35,7 @@ module.exports.run = async (client, message) =>
           },
           {
             name: "سازنده 👨‍💻",
-            value: "**-its^Parsa^#3222 **",
+            value: "**im-parsa#9694**",
             inline: true
           },
 
