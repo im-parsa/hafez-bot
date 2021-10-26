@@ -1,7 +1,7 @@
 ![logo](https://cdn.discordapp.com/attachments/776425421968244768/832315187830849576/Hafez.jpg)
 
 # 🤖 hafez-bot (Discord Bot)
-> fA Bot to enjoy the poems of Hafez, one of the best poets in history
+> A Bot to enjoy the poems of Hafez, one of the best poets in history
 
 <br><br>
 
