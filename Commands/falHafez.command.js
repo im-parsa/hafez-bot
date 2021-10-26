@@ -1,5 +1,6 @@
-const Discord = require("discord.js");
-const axios = require("axios");
+const axios = require("axios"),
+    Discord = require("discord.js");
+
 
 module.exports.run = async (bot, message) =>
 {
@@ -17,7 +18,7 @@ module.exports.run = async (bot, message) =>
 
       explanation = `${data.explanation}`,
 
-      embed1 = new Discord.MessageEmbed()
+      embed = new Discord.MessageEmbed()
           .setColor("#fffff0")
           .setDescription(`📔 **(${numberRandom}) فال حافظ** 📔`)
           .addField(
@@ -33,8 +34,7 @@ module.exports.run = async (bot, message) =>
               message.author.displayAvatarURL({ dynamic: true })
           );
 
-  await message.channel.send(embed1);
-
+  await message.channel.send(embed);
 };
 
 module.exports.help =

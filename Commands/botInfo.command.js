@@ -1,9 +1,10 @@
-const { MessageEmbed } = require("discord.js");
-const os = require("os");
+const os = require("os"),
+    Discord = require("discord.js");
+
 
 module.exports.run = async (client, message) =>
 {
-  const embed = new MessageEmbed()
+  const embed = new Discord.MessageEmbed()
       .setThumbnail(client.user.displayAvatarURL())
       .setTitle("📔 **آمار بات الایت حافظ** 📔")
       .setFooter(

@@ -1,9 +1,10 @@
-const { MessageEmbed } = require("discord.js");
-const { prefix } = require("../config.json");
+const Discord = require("discord.js"),
+    { prefix } = require("../config.json");
+
 
 module.exports.run = async (bot, message) =>
 {
-  const embed = new MessageEmbed()
+  const embed = new Discord.MessageEmbed()
       .setThumbnail(bot.user.displayAvatarURL())
       .setTitle("📔 **صفحه راهنمایی** 📔")
       .setDescription(

@@ -1,8 +1,9 @@
 const Discord = require("discord.js");
 
+
 module.exports.run = async (bot, message) =>
 {
-  let embed1 = new Discord.MessageEmbed()
+  const embed = new Discord.MessageEmbed()
       .setColor("#fffff0")
       .setDescription(`📔 **زندگی نامه حافظ** 📔`)
       .addField(
@@ -19,8 +20,7 @@ module.exports.run = async (bot, message) =>
           message.author.displayAvatarURL({ dynamic: true })
       );
 
-  await message.channel.send(embed1);
-
+  await message.channel.send(embed);
 };
 
 module.exports.help =
