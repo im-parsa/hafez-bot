@@ -1,7 +1,7 @@
 {
   "name": "hafez-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Bot to enjoy the poems of Hafez, one of the best poets in history",
   "main": "index.js",
   "dependencies": {
     "axios": "^0.21.1",
@@ -11,8 +11,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node index.js"
+    "start": "node ."
   },
-  "author": "",
+  "author": "im-parsa",
   "license": "ISC"
 }
