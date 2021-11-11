@@ -2,7 +2,7 @@
 
 ![logo](https://cdn.discordapp.com/attachments/760896469023850588/832576634489929728/782482961-talab-org.jpg)
 
-# 🤖 Hafez Bot (Discord CSGO Bot)
+# 🤖 Hafez Bot (Discord Bot)
 > Just simple discord bot built with discord.js [discordjs.guide](https://discordjs.guide)
 
 ## 🔖 Requirements
