@@ -16,7 +16,7 @@ If deploying to Heroku make sure to create config variables
 
 ```
 git clone https://github.com/im-parsa/hafez-bot.git
-cd csgo-bot
+cd hafez-bot
 npm install
 ```
 
