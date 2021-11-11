@@ -33,4 +33,4 @@ After installation finishes you can use `node index.js` or `npm start` to start 
 
 ## 📝 Credits
 
-[@im-parsa](https://github.com/hafez-bot)
+[@im-parsa](https://github.com/im-parsa)
